@@ -1,4 +1,4 @@
-# ⚙️ VS Code 環境再現マニュアル（Windows専用）
+# ⚙️ VS Code 環境再現マニュアル
 
 この手順では、別のPCで **VS Code の設定をまるごと再現**できます。  
 必要なファイルは以下の2つだけ！
@@ -23,8 +23,6 @@
 git clone https://github.com/yourname/vscode-config.git
 cd vscode-config
 ```
-
-または ZIP ダウンロードして展開。
 
 ---
 

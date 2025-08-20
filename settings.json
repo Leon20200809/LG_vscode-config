@@ -1,4 +1,9 @@
 {
+    "cssVariables.lookupFiles": [
+    "src/css/tokens.css",   // デザイントークンの本体
+    "src/css/**/*.css"      // 他のCSSファイルでも参照できるように
+    ],
+    
     "editor.stickyScroll.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "liveServer.settings.donotShowInfoMsg": true,
@@ -111,5 +116,11 @@
     "blade.showComponentCompletions": true,
     "blade.showDirectiveCompletions": true,
     "blade.componentCompletionStyle": "auto",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        " ": true
+    },
 
 }
